@@ -948,7 +948,7 @@ Quote paths containing spaces. The multi-line examples use Bash-style `\` contin
 
 ### Current repository license
 
-The repository already contains the [Apache License 2.0](LICENSE). It is a suitable permissive license for `OXYRA.py` and, when explicitly declared by the copyright owner, the supplied `OXYRA.pkl` model artifact. It permits use, modification, redistribution, private use, and commercial use subject to its notice, attribution, change-notification, and other terms.
+The repository contains the [Apache License 2.0](LICENSE). It is a suitable permissive license for `OXYRA.py` and, when explicitly declared by the copyright owner, the supplied `OXYRA.pkl` model artifact. It permits use, modification, redistribution, private use, and commercial use subject to its notice, attribution, change-notification, and other terms.
 
 ### Recommended asset-level license map
 
