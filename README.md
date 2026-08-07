@@ -1023,8 +1023,7 @@ For bugs or questions, open a [GitHub issue](https://github.com/Agnibha-31/OXYRA
 
 ### [Agnibha Basak](https://github.com/Agnibha-31) | [Ambuj Pathak](https://github.com/Ambuj-coder1997)
 
-Project-related correspondence, builds, automations AI/ML and bussiness queries, mail at: [remix.play31@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=remix.play31@gmail.com&su=Smart%20Meter%20IoT%20Dashboard%20Enquiry) | [pathakambuj2016@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=pathakambuj2016%40gmail.com&su=AURA%20Project%20Inquiry) 
-
+Project-related correspondence, builds, automations AI/ML and bussiness queries, mail at: [remix.play31@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=remix.play31@gmail.com&su=Smart%20Meter%20IoT%20Dashboard%20Enquiry)
 ---
 
 If this repository supports your research, please cite the exact version used, preserve the license and attribution notices, and report results with the dataset, split, horizon, sampling interval, and evaluation protocol clearly stated.
