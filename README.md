@@ -7,8 +7,12 @@
 [![Task](https://img.shields.io/badge/Task-One--step%20DO%20forecasting-0B7285)](#what-oxyra-does)
 [![Checkpoint included](https://img.shields.io/badge/Checkpoint-Included-2F9E44)](OXYRA.pkl)
 [![License: Apache-2.0](https://img.shields.io/badge/Code%20%26%20model-Apache--2.0-blue.svg)](LICENSE)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/Data%2C%20figures%20%26%20docs-CC%20BY%204.0-2A9D8F.svg)](DATA-LICENSE.md)
+[![Project notice](https://img.shields.io/badge/Attribution-NOTICE-6F42C1.svg)](NOTICE)
 
 OXYRA is a deep temporal forecasting system for predicting the next dissolved-oxygen (DO) value from recent sensor and actuator history. The repository contains a portable high-precision DO checkpoint, a public training and evaluation workbench, seven disturbance-family datasets, saved research metrics, and eight analysis figures.
+
+The repository uses an explicit asset-level license split: the software and project-owned model/checkpoint are released under Apache License 2.0, while project-owned datasets, metrics, figures, and original documentation are released under CC BY 4.0. See [Licensing](#licensing), [`DATA-LICENSE.md`](DATA-LICENSE.md), and [`NOTICE`](NOTICE) for the exact scope and attribution requirements.
 
 The project is designed to be useful to both researchers and beginners. You can:
 
@@ -98,9 +102,11 @@ In this repository, “physics-guided” therefore means **physics-aware variabl
 | Supplied checkpoint | `OXYRA.pkl`, 1,369,122 bytes (about 1.31 MiB) |
 | Framework | PyTorch / TorchScript checkpoint inside a metadata bundle |
 | Public training profiles | `research-aligned` and `compact` |
-| Current code/model license | Apache License 2.0 |
+| Code and project-owned model license | Apache License 2.0 |
+| Project-owned data, metrics, figures, and documentation license | CC BY 4.0 |
+| License and attribution files | `LICENSE`, `DATA-LICENSE.md`, and `NOTICE` |
 
-The complete audit described in this README corresponds to repository commit `33a84ea9792aae484721428c0e5c860b4d0d2a24` on the `main` branch.
+The technical and licensing audit behind this README was completed against repository state `0b43fb9bb2d2681d8adefa4370a66518e39902c7` on the `main` branch on 7 August 2026.
 
 ---
 
@@ -260,6 +266,8 @@ The saved research run lasted 55 epochs and selected epoch 45 as its best valida
 ├── OXYRA.pkl
 ├── README.md
 ├── LICENSE
+├── DATA-LICENSE.md
+├── NOTICE
 ├── Datasets/
 │   ├── DO Clean.csv
 │   ├── DO Drift.csv
@@ -290,7 +298,9 @@ The saved research run lasted 55 epochs and selected epoch 45 as its best valida
 | [`Analysis Plots/`](Analysis%20Plots) | Eight saved research figures embedded above |
 | [`research_family_metrics.csv`](Metrices%20%26%20%20Analysis/research_family_metrics.csv) | Per-family held-out MAE and RMSE |
 | [`research_overall_metrics.csv`](Metrices%20%26%20%20Analysis/research_overall_metrics.csv) | Overall OXYRA and persistence metrics |
-| [`LICENSE`](LICENSE) | Existing Apache License 2.0 text |
+| [`LICENSE`](LICENSE) | Apache License 2.0 terms for the software and project-owned model/checkpoint artifact |
+| [`DATA-LICENSE.md`](DATA-LICENSE.md) | CC BY 4.0 scope, exclusions, and attribution instructions for project-owned data, metrics, figures, and original documentation |
+| [`NOTICE`](NOTICE) | Project attribution and the relationship between the Apache 2.0 and CC BY 4.0 license scopes |
 
 > [!NOTE]
 > The directory name `Metrices &  Analysis` contains the spelling and two spaces currently present in the repository. The encoded links in this README deliberately match that exact path.
@@ -946,44 +956,48 @@ Quote paths containing spaces. The multi-line examples use Bash-style `\` contin
 
 ## Licensing
 
-### Current repository license
+### Applied dual-license structure
 
-The repository contains the [Apache License 2.0](LICENSE). It is a suitable permissive license for `OXYRA.py` and, when explicitly declared by the copyright owner, the supplied `OXYRA.pkl` model artifact. It permits use, modification, redistribution, private use, and commercial use subject to its notice, attribution, change-notification, and other terms.
+This repository uses different licenses for different kinds of material. The governing files are [`LICENSE`](LICENSE), [`DATA-LICENSE.md`](DATA-LICENSE.md), and [`NOTICE`](NOTICE).
 
-### Recommended asset-level license map
-
-For a research repository containing software, model weights, data, and figures, use an explicit split:
-
-| Asset | Recommended license | Reason |
+| Repository material | Governing file(s) | Applied license or terms |
 |---|---|---|
-| `OXYRA.py` and future source code | Apache-2.0 | Permissive software reuse plus an express patent grant |
-| `OXYRA.pkl` | Apache-2.0 | Clear permission to use and redistribute the project-owned checkpoint |
-| Project-owned files in `Datasets/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Allows sharing and adaptation, including commercial reuse, with attribution |
-| Project-owned files in `Analysis Plots/` and original README text | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Clear attribution-based reuse for research figures and explanatory content |
-| Third-party source data or assets | Their original upstream license | The repository owner cannot relicense material they do not own |
+| `OXYRA.py` and other project software | [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) | Apache License 2.0 (`Apache-2.0`) |
+| Project-owned `OXYRA.pkl` model/checkpoint artifact | [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) | Apache License 2.0 (`Apache-2.0`) |
+| Project-owned CSV files in `Datasets/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
+| Project-owned CSV files in `Metrices &  Analysis/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
+| Project-owned PNG figures in `Analysis Plots/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
+| Original README prose, tables, captions, and diagrams, excluding reproduced code or quoted third-party material | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
+| Third-party code, data, images, trademarks, or other material | The applicable upstream notice or license | Not relicensed by this repository |
 
-For an unambiguous final release, add the complete official CC BY 4.0 legal code as a root file named `LICENSE-DATA`, and add a `NOTICE` file containing:
+The CC BY 4.0 grant applies only to material and rights that Agnibha Basak owns or is authorized to license. Any third-party material keeps its original copyright, database rights, attribution requirements, and license terms.
 
-```text
-OXYRA: Oxygen Yielding Recurrent Architecture
-Copyright 2026 Agnibha Basak
+### What users must preserve
 
-Software and project-owned model artifact: Apache License 2.0.
-Project-owned datasets, figures, and documentation: Creative Commons
-Attribution 4.0 International (CC BY 4.0).
-Third-party materials, if any, remain under their original licenses and
-must be identified with their source and license.
-```
+- When redistributing or modifying the software or project-owned checkpoint, follow Apache License 2.0 and retain the applicable `LICENSE` and `NOTICE` information.
+- When sharing or adapting covered datasets, metrics, figures, or documentation, provide appropriate credit, link to CC BY 4.0, identify the source, and state whether changes were made.
+- Do not present attribution as an endorsement by the author.
+- Check separately identified third-party material and comply with its upstream terms.
 
-Suggested attribution for data or figure reuse:
+Suggested attribution for an unchanged copy of covered data or figures:
 
 ```text
-OXYRA dissolved-oxygen disturbance-family datasets and/or figures,
-© 2026 Agnibha Basak, licensed under CC BY 4.0.
+OXYRA Dissolved-Oxygen Disturbance-Family Research Data and Figures,
+copyright 2026 Agnibha Basak, licensed under CC BY 4.0.
 Source: https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence
+License: https://creativecommons.org/licenses/by/4.0/
 ```
 
-Before applying CC BY 4.0, verify that every covered dataset and figure is wholly project-owned or that its upstream terms permit relicensing. This section is practical repository guidance, not legal advice.
+Suggested attribution for an adaptation:
+
+```text
+Adapted from OXYRA Dissolved-Oxygen Disturbance-Family Research Data and
+Figures by Agnibha Basak, licensed under CC BY 4.0. Changes were made.
+Source: https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence
+License: https://creativecommons.org/licenses/by/4.0/
+```
+
+The complete asset scope, exclusions, disclaimer, research-safety notice, and attribution wording are in [`DATA-LICENSE.md`](DATA-LICENSE.md). [`NOTICE`](NOTICE) is informational and does not replace or modify either license. This section summarizes the repository files and is not legal advice.
 
 ---
 
@@ -997,7 +1011,7 @@ No DOI or paper citation is currently stored in the audited repository. Until a 
   title   = {OXYRA: Oxygen Yielding Recurrent Architecture for Physics-Guided Dissolved-Oxygen Forecasting},
   year    = {2026},
   url     = {https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence},
-  version = {33a84ea9792aae484721428c0e5c860b4d0d2a24}
+  version = {0b43fb9bb2d2681d8adefa4370a66518e39902c7}
 }
 ```
 
@@ -1017,7 +1031,8 @@ Before opening a pull request:
 4. include a small reproducible example or test where possible;
 5. do not replace the saved headline metrics with results from a training set;
 6. document any new dataset’s source, license, schema, units, and preprocessing; and
-7. state whether model or data files were changed.
+7. state whether model or data files were changed; and
+8. preserve `LICENSE`, `DATA-LICENSE.md`, and `NOTICE`, and document the source and license of any newly added third-party material.
 
 For bugs or questions, open a [GitHub issue](https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence/issues) with the command used, Python/PyTorch versions, operating system, relevant column names, and the complete error message. Do not upload confidential operational data.
 
