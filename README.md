@@ -105,7 +105,7 @@ In this repository, “physics-guided” therefore means **physics-aware variabl
 | Project-owned data, metrics, figures, and documentation license | CC BY 4.0 |
 | License and attribution files | `LICENSE`, `DATA-LICENSE.md`, and `NOTICE` |
 
-The technical and licensing audit behind this README was completed against repository state `0b43fb9bb2d2681d8adefa4370a66518e39902c7` on the `main` branch on 7 August 2026.
+The technical artifacts described in this README were re-audited on 7 August 2026. For exact reproducibility, cite the Git commit or release tag corresponding to the downloaded repository version.
 
 ---
 
