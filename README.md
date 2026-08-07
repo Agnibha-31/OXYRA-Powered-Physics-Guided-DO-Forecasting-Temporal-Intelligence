@@ -53,7 +53,7 @@ The project is designed to be useful to both researchers and beginners. You can:
 - [Licensing](#licensing)
 - [Citation](#citation)
 - [Contributing](#contributing)
-- [Author](#author)
+- [Developer](#developer)
 
 ---
 
@@ -1038,12 +1038,11 @@ For bugs or questions, open a [GitHub issue](https://github.com/Agnibha-31/OXYRA
 
 ---
 
-## Author
+## Developer
 
-**Agnibha Basak**  
-GitHub: [@Agnibha-31](https://github.com/Agnibha-31)
+### [Agnibha Basak](https://github.com/Agnibha-31)
 
-Repository: [OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence](https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence)
+For IoT development, embedded systems, automation, PCB design, technical collaboration, or business enquiries, mail at: [remix.play31@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=remix.play31@gmail.com&su=Smart%20Meter%20IoT%20Dashboard%20Enquiry)
 
 ---
 
