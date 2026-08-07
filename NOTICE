@@ -1,0 +1,51 @@
+OXYRA: Oxygen Yielding Recurrent Architecture
+Copyright 2026 Agnibha Basak
+
+This product includes software and a project-owned model/checkpoint artifact
+developed by Agnibha Basak.
+
+PROJECT
+
+OXYRA-Powered Physics-Guided DO Forecasting Temporal Intelligence
+
+Project repository:
+https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence
+
+SOFTWARE AND MODEL ARTIFACT
+
+The project software, including "OXYRA.py", and the project-owned model or
+checkpoint artifact, including "OXYRA.pkl", are licensed under the Apache
+License, Version 2.0 (SPDX-License-Identifier: Apache-2.0).
+
+See the root "LICENSE" file for the complete Apache License 2.0 terms:
+https://www.apache.org/licenses/LICENSE-2.0
+
+DATA, METRICS, FIGURES, AND DOCUMENTATION
+
+The project-owned datasets, metrics, figures, and original documentation
+identified in "LICENSE-DATA" are licensed separately under the Creative
+Commons Attribution 4.0 International Public License
+(SPDX-License-Identifier: CC-BY-4.0).
+
+See "LICENSE-DATA" for the exact asset scope, exclusions, and attribution
+instructions:
+https://creativecommons.org/licenses/by/4.0/
+
+THIRD-PARTY MATERIAL
+
+Third-party material is not relicensed by this notice. Any third-party data,
+code, models, images, names, logos, or other assets retain their original
+copyright, database rights, notices, and license terms. Their upstream terms
+control their use and redistribution.
+
+ATTRIBUTION
+
+The preferred project attribution is:
+
+  OXYRA: Oxygen Yielding Recurrent Architecture
+  Agnibha Basak, 2026
+  https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence
+
+This NOTICE file is informational. It does not modify the Apache License 2.0,
+the Creative Commons Attribution 4.0 International Public License, or any
+applicable third-party license.
