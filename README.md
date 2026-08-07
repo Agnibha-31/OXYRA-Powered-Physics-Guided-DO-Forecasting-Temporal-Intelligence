@@ -7,12 +7,12 @@
 [![Task](https://img.shields.io/badge/Task-One--step%20DO%20forecasting-0B7285)](#what-oxyra-does)
 [![Checkpoint included](https://img.shields.io/badge/Checkpoint-Included-2F9E44)](OXYRA.pkl)
 [![License: Apache-2.0](https://img.shields.io/badge/Code%20%26%20model-Apache--2.0-blue.svg)](LICENSE)
-[![Data license: CC BY 4.0](https://img.shields.io/badge/Data%2C%20figures%20%26%20docs-CC%20BY%204.0-2A9D8F.svg)](DATA-LICENSE.md)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/Data%2C%20figures%20%26%20docs-CC%20BY%204.0-2A9D8F.svg)](LICENSE-DATA)
 [![Project notice](https://img.shields.io/badge/Attribution-NOTICE-6F42C1.svg)](NOTICE)
 
 OXYRA is a deep temporal forecasting system for predicting the next dissolved-oxygen (DO) value from recent sensor and actuator history. The repository contains a portable high-precision DO checkpoint, a public training and evaluation workbench, seven disturbance-family datasets, saved research metrics, and eight analysis figures.
 
-The repository uses an explicit asset-level license split: the software and project-owned model/checkpoint are released under Apache License 2.0, while project-owned datasets, metrics, figures, and original documentation are released under CC BY 4.0. See [Licensing](#licensing), [`DATA-LICENSE.md`](DATA-LICENSE.md), and [`NOTICE`](NOTICE) for the exact scope and attribution requirements.
+The repository uses an explicit asset-level license split: the software and project-owned model/checkpoint are released under Apache License 2.0, while project-owned datasets, metrics, figures, and original documentation are released under CC BY 4.0. See [Licensing](#licensing), [`LICENSE-DATA`](LICENSE-DATA) for the governing CC BY 4.0 terms, [`DATA_SCOPE.md`](DATA_SCOPE.md) for the covered material, exclusions, attribution requirements, and research disclaimer, and [`NOTICE`](NOTICE) for the project attribution and licensing summary.
 
 The project is designed to be useful to both researchers and beginners. You can:
 
@@ -103,7 +103,7 @@ In this repository, “physics-guided” therefore means **physics-aware variabl
 | Public training profiles | `research-aligned` and `compact` |
 | Code and project-owned model license | Apache License 2.0 |
 | Project-owned data, metrics, figures, and documentation license | CC BY 4.0 |
-| License and attribution files | `LICENSE`, `DATA-LICENSE.md`, and `NOTICE` |
+| License, scope, and attribution files | `LICENSE`, `LICENSE-DATA`, `DATA_SCOPE.md`, and `NOTICE` |
 
 The technical artifacts described in this README were re-audited on 7 August 2026. For exact reproducibility, cite the Git commit or release tag corresponding to the downloaded repository version.
 
@@ -265,7 +265,8 @@ The saved research run lasted 55 epochs and selected epoch 45 as its best valida
 ├── OXYRA.pkl
 ├── README.md
 ├── LICENSE
-├── DATA-LICENSE.md
+├── LICENSE-DATA
+├── DATA_SCOPE.md
 ├── NOTICE
 ├── Datasets/
 │   ├── DO Clean.csv
@@ -297,9 +298,10 @@ The saved research run lasted 55 epochs and selected epoch 45 as its best valida
 | [`Analysis Plots/`](Analysis%20Plots) | Eight saved research figures embedded above |
 | [`research_family_metrics.csv`](Metrices%20%26%20%20Analysis/research_family_metrics.csv) | Per-family held-out MAE and RMSE |
 | [`research_overall_metrics.csv`](Metrices%20%26%20%20Analysis/research_overall_metrics.csv) | Overall OXYRA and persistence metrics |
-| [`LICENSE`](LICENSE) | Apache License 2.0 terms for the software and project-owned model/checkpoint artifact |
-| [`DATA-LICENSE.md`](DATA-LICENSE.md) | CC BY 4.0 scope, exclusions, and attribution instructions for project-owned data, metrics, figures, and original documentation |
-| [`NOTICE`](NOTICE) | Project attribution and the relationship between the Apache 2.0 and CC BY 4.0 license scopes |
+| [`LICENSE`](LICENSE) | Complete Apache License 2.0 terms for the software and project-owned model/checkpoint artifact |
+| [`LICENSE-DATA`](LICENSE-DATA) | Complete CC BY 4.0 legal terms governing eligible project-owned data, metrics, figures, and original documentation |
+| [`DATA_SCOPE.md`](DATA_SCOPE.md) | Defines the material covered by CC BY 4.0, exclusions, attribution requirements, research disclaimer, and safety limitations |
+| [`NOTICE`](NOTICE) | Summarizes project attribution and the relationship between the Apache 2.0 and CC BY 4.0 licensing scopes |
 
 > [!NOTE]
 > The directory name `Metrices &  Analysis` contains the spelling and two spaces currently present in the repository. The encoded links in this README deliberately match that exact path.
@@ -957,24 +959,25 @@ Quote paths containing spaces. The multi-line examples use Bash-style `\` contin
 
 ### Applied dual-license structure
 
-This repository uses different licenses for different kinds of material. The governing files are [`LICENSE`](LICENSE), [`DATA-LICENSE.md`](DATA-LICENSE.md), and [`NOTICE`](NOTICE).
+This repository uses different licenses for different kinds of material. The complete governing legal terms are contained in [`LICENSE`](LICENSE) and [`LICENSE-DATA`](LICENSE-DATA). [`DATA_SCOPE.md`](DATA_SCOPE.md) defines the project-owned material covered by CC BY 4.0, applicable exclusions, attribution requirements, and research limitations. [`NOTICE`](NOTICE) provides the project attribution and licensing summary.
 
-| Repository material | Governing file(s) | Applied license or terms |
+| Repository material | Governing legal terms | Scope and notice |
 |---|---|---|
-| `OXYRA.py` and other project software | [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) | Apache License 2.0 (`Apache-2.0`) |
-| Project-owned `OXYRA.pkl` model/checkpoint artifact | [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) | Apache License 2.0 (`Apache-2.0`) |
-| Project-owned CSV files in `Datasets/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
-| Project-owned CSV files in `Metrices &  Analysis/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
-| Project-owned PNG figures in `Analysis Plots/` | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
-| Original README prose, tables, captions, and diagrams, excluding reproduced code or quoted third-party material | [`DATA-LICENSE.md`](DATA-LICENSE.md), [`NOTICE`](NOTICE) | Creative Commons Attribution 4.0 International (`CC-BY-4.0`) |
-| Third-party code, data, images, trademarks, or other material | The applicable upstream notice or license | Not relicensed by this repository |
+| `OXYRA.py` and other project software | [Apache License 2.0](LICENSE) | See [`NOTICE`](NOTICE) |
+| Project-owned `OXYRA.pkl` model/checkpoint artifact | [Apache License 2.0](LICENSE) | See [`NOTICE`](NOTICE) |
+| Project-owned CSV files in `Datasets/` | [Creative Commons Attribution 4.0 International](LICENSE-DATA) | See [`DATA_SCOPE.md`](DATA_SCOPE.md) and [`NOTICE`](NOTICE) |
+| Project-owned CSV files in `Metrices &  Analysis/` | [Creative Commons Attribution 4.0 International](LICENSE-DATA) | See [`DATA_SCOPE.md`](DATA_SCOPE.md) and [`NOTICE`](NOTICE) |
+| Project-owned PNG figures in `Analysis Plots/` | [Creative Commons Attribution 4.0 International](LICENSE-DATA) | See [`DATA_SCOPE.md`](DATA_SCOPE.md) and [`NOTICE`](NOTICE) |
+| Original README prose, tables, captions, and diagrams, excluding reproduced code or quoted third-party material | [Creative Commons Attribution 4.0 International](LICENSE-DATA) | See [`DATA_SCOPE.md`](DATA_SCOPE.md) and [`NOTICE`](NOTICE) |
+| Third-party code, data, images, trademarks, or other material | Applicable upstream notice or license | Not relicensed by this repository |
 
-The CC BY 4.0 grant applies only to material and rights that Agnibha Basak owns or is authorized to license. Any third-party material keeps its original copyright, database rights, attribution requirements, and license terms.
+The CC BY 4.0 grant applies only to material and rights that Agnibha Basak owns or is authorized to license. Third-party material retains its original copyright, database rights, attribution requirements, and license terms.
 
 ### What users must preserve
 
-- When redistributing or modifying the software or project-owned checkpoint, follow Apache License 2.0 and retain the applicable `LICENSE` and `NOTICE` information.
-- When sharing or adapting covered datasets, metrics, figures, or documentation, provide appropriate credit, link to CC BY 4.0, identify the source, and state whether changes were made.
+- When redistributing or modifying the software or project-owned checkpoint, comply with Apache License 2.0 and retain the applicable [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) information.
+- When sharing or adapting covered datasets, metrics, figures, or documentation, comply with [`LICENSE-DATA`](LICENSE-DATA), provide appropriate credit, link to CC BY 4.0, identify the source, and state whether changes were made.
+- Consult [`DATA_SCOPE.md`](DATA_SCOPE.md) to confirm whether particular material is covered and to review its exclusions, attribution wording, disclaimer, and research-safety limitations.
 - Do not present attribution as an endorsement by the author.
 - Check separately identified third-party material and comply with its upstream terms.
 
@@ -996,7 +999,7 @@ Source: https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecastin
 License: https://creativecommons.org/licenses/by/4.0/
 ```
 
-The complete asset scope, exclusions, disclaimer, research-safety notice, and attribution wording are in [`DATA-LICENSE.md`](DATA-LICENSE.md). [`NOTICE`](NOTICE) is informational and does not replace or modify either license. This section summarizes the repository files and is not legal advice.
+The complete CC BY 4.0 legal terms are contained in [`LICENSE-DATA`](LICENSE-DATA). The asset scope, exclusions, attribution wording, disclaimer, and research-safety notice are contained in [`DATA_SCOPE.md`](DATA_SCOPE.md). [`NOTICE`](NOTICE) is informational and does not replace or modify either governing license. This section summarizes the repository files and is not legal advice.
 
 ---
 
@@ -1011,9 +1014,9 @@ Before opening a pull request:
 3. preserve chronological evaluation and leakage safeguards;
 4. include a small reproducible example or test where possible;
 5. do not replace the saved headline metrics with results from a training set;
-6. document any new dataset’s source, license, schema, units, and preprocessing; and
+6. document any new dataset’s source, license, schema, units, and preprocessing;
 7. state whether model or data files were changed; and
-8. preserve `LICENSE`, `DATA-LICENSE.md`, and `NOTICE`, and document the source and license of any newly added third-party material.
+8. preserve `LICENSE`, `LICENSE-DATA`, `DATA_SCOPE.md`, and `NOTICE`, and document the source and license of any newly added third-party material.
 
 For bugs or questions, open a [GitHub issue](https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence/issues) with the command used, Python/PyTorch versions, operating system, relevant column names, and the complete error message. Do not upload confidential operational data.
 
