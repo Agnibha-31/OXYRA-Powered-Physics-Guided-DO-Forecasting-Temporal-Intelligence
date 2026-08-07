@@ -1042,7 +1042,7 @@ For bugs or questions, open a [GitHub issue](https://github.com/Agnibha-31/OXYRA
 
 ### [Agnibha Basak](https://github.com/Agnibha-31)
 
-For IoT development, embedded systems, automation, PCB design, technical collaboration, or business enquiries, mail at: [remix.play31@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=remix.play31@gmail.com&su=Smart%20Meter%20IoT%20Dashboard%20Enquiry)
+Project-related correspondence, builds, automations AI/ML and bussiness queries, mail at: [remix.play31@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=remix.play31@gmail.com&su=Smart%20Meter%20IoT%20Dashboard%20Enquiry)
 
 ---
 
