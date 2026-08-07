@@ -51,7 +51,6 @@ The project is designed to be useful to both researchers and beginners. You can:
 - [Limitations and responsible use](#limitations-and-responsible-use)
 - [Troubleshooting](#troubleshooting)
 - [Licensing](#licensing)
-- [Citation](#citation)
 - [Contributing](#contributing)
 - [Developer](#developer)
 
@@ -998,24 +997,6 @@ License: https://creativecommons.org/licenses/by/4.0/
 ```
 
 The complete asset scope, exclusions, disclaimer, research-safety notice, and attribution wording are in [`DATA-LICENSE.md`](DATA-LICENSE.md). [`NOTICE`](NOTICE) is informational and does not replace or modify either license. This section summarizes the repository files and is not legal advice.
-
----
-
-## Citation
-
-No DOI or paper citation is currently stored in the audited repository. Until a versioned archival DOI is added, cite the software repository and the exact version or commit used.
-
-```bibtex
-@software{basak_oxyra_2026,
-  author  = {Basak, Agnibha},
-  title   = {OXYRA: Oxygen Yielding Recurrent Architecture for Physics-Guided Dissolved-Oxygen Forecasting},
-  year    = {2026},
-  url     = {https://github.com/Agnibha-31/OXYRA-Powered-Physics-Guided-DO-Forecasting-Temporal-Intelligence},
-  version = {0b43fb9bb2d2681d8adefa4370a66518e39902c7}
-}
-```
-
-When a related paper or Zenodo release becomes available, add its formal citation and DOI badge without removing the software version used for reproducibility.
 
 ---
 
