@@ -23,11 +23,11 @@ https://www.apache.org/licenses/LICENSE-2.0
 DATA, METRICS, FIGURES, AND DOCUMENTATION
 
 The project-owned datasets, metrics, figures, and original documentation
-identified in "LICENSE-DATA" are licensed separately under the Creative
+identified in "DATA-LICENSE.md" are licensed separately under the Creative
 Commons Attribution 4.0 International Public License
 (SPDX-License-Identifier: CC-BY-4.0).
 
-See "LICENSE-DATA" for the exact asset scope, exclusions, and attribution
+See "DATA-LICENSE.md" for the exact asset scope, exclusions, and attribution
 instructions:
 https://creativecommons.org/licenses/by/4.0/
 
