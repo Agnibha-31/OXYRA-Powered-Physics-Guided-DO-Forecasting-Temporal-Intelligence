@@ -42,7 +42,7 @@ This CC BY 4.0 license does not apply to:
 - "OXYRA.py" or other software source code;
 - "OXYRA.pkl" or other model/checkpoint artifacts;
 - the repository's Apache License 2.0 text in "LICENSE";
-- this "LICENSE-DATA" file or the "NOTICE" file as legal and attribution
+- this "DATA-LICENSE.md" file or the "NOTICE" file as legal and attribution
   notices;
 - third-party data, code, images, names, logos, trademarks, or other material;
   or
