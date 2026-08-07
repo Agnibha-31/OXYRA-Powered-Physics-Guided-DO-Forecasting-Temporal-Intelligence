@@ -17,26 +17,30 @@ The project software, including "OXYRA.py", and the project-owned model or
 checkpoint artifact, including "OXYRA.pkl", are licensed under the Apache
 License, Version 2.0 (SPDX-License-Identifier: Apache-2.0).
 
-See the root "LICENSE" file for the complete Apache License 2.0 terms:
-https://www.apache.org/licenses/LICENSE-2.0
+The complete governing Apache License 2.0 terms are contained in the root
+"LICENSE" file.
 
 DATA, METRICS, FIGURES, AND DOCUMENTATION
 
-The project-owned datasets, metrics, figures, and original documentation
-identified in "DATA-LICENSE.md" are licensed separately under the Creative
+Eligible project-owned datasets, metrics, figures, and original documentation
+identified in "DATA_SCOPE.md" are licensed separately under the Creative
 Commons Attribution 4.0 International Public License
 (SPDX-License-Identifier: CC-BY-4.0).
 
-See "DATA-LICENSE.md" for the exact asset scope, exclusions, and attribution
-instructions:
+The complete governing CC BY 4.0 legal terms are contained in the root
+"LICENSE-DATA" file. "DATA_SCOPE.md" defines the covered material,
+exclusions, attribution requirements, disclaimer, and research-safety
+limitations.
+
+License summary:
 https://creativecommons.org/licenses/by/4.0/
 
 THIRD-PARTY MATERIAL
 
 Third-party material is not relicensed by this notice. Any third-party data,
-code, models, images, names, logos, or other assets retain their original
-copyright, database rights, notices, and license terms. Their upstream terms
-control their use and redistribution.
+code, models, images, names, logos, trademarks, or other assets retain their
+original copyright, database rights, notices, and license terms. Their
+upstream terms control their use and redistribution.
 
 ATTRIBUTION
 
